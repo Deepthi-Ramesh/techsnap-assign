@@ -1,0 +1,489 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: fit-content;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    width:12%;
+    height:10%;
+    margin-left: 0.5rem;
+}
+nav ul{
+    font-size: 1rem;
+    width:55%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding:1.5rem 0 0 0;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+.login{
+    width:18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 1.5rem 0 1.5rem 0;
+    
+}
+#login{
+    width:30%;
+    color: #ffffff;
+    background-color: #80bbe2;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+#signup{
+    width:30%;
+   
+    background-color: #ffffff ;
+    border: 1px solid  #80bbe2;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+#signup a{
+    text-decoration: none;
+    color: #80bbe2;
+}
+.container{
+    width:100%;
+    margin: 0.5rem;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: row;
+}
+main{
+   width:70%;
+   height:100%;
+  
+}
+aside{
+    width:30%;
+    height:fit-content;
+
+    float:right;
+}
+.share{
+    width:100%;
+    height:20%;
+    font-size: 1.2rem;
+    margin:0.5rem 0 0 0.3rem;
+}
+.share img{
+    width:10%;
+    height:10%;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+.trendingpost{
+    width: 100%;
+    height: 40%;
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    padding: 0.7rem;
+}
+.trendingpost1{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+#post{
+    width:40%;
+    margin:0.5rem;
+}
+#para1{
+    font-size:0.9rem;
+}
+#para{
+    color:#3b3bce;
+    font-size: 0.9rem;
+}
+#para3{
+    margin-top: 0.3rem;
+}
+#timer{
+    width:10%;
+    height:10%;
+    margin-top: 0.3rem;
+}
+.timer{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+.newsletter{
+    width:80%;
+    height:28vh;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    background-color: #fdfbf6;
+    padding: 1.2rem;
+    margin: 1rem; 
+    font-size: 1rem;
+}
+.newsletter p{
+    font-size: 0.8rem;
+     margin: 0.3rem 0 0.5rem 0; 
+}
+.newsletter h4{
+    font-size: 1.3rem;
+    
+}
+.newsletter button{
+    background-color: #80bbe2; ;
+    outline: none;
+    border: none;
+    margin:0.8rem 0 0 0;
+    color: white;
+    width:90%;
+    height:20%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.newsletter input{
+   width:90%;
+   height:20%;
+   font-size: 0.7rem;
+   outline: none;
+}
+.ads{
+    width:100%;
+    height:auto;
+}
+.ads img{
+    width:80%;
+    height:80%;
+    margin:1rem;
+}
+.sub-container{
+    width: 100%;
+    font-size: 1.2rem;
+    padding:1.5rem;
+}
+.sub-container img{
+    width:100%;
+    height:100%;
+    margin:0 0 1rem 0;
+}
+#heading{
+    font-size: 2.5rem;
+}
+#author{
+    font-size:1rem;
+    margin:0rem 0 1rem 0;
+}
+.response{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.like,.reply{
+    display: flex;
+    flex-direction: row;
+    width:20%;
+    height:10%;
+    border:1px solid black;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+.like p{
+    margin-top: 0.4rem;
+    font-size: 1.4rem;
+}
+.reply p{
+    font-size: 1.4rem;
+    margin-top: 0.4rem;
+}
+
+.like{
+    width: 13%;
+}
+.comment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.addcom{
+    width:80%;
+    height: 30%;
+}
+.comments{
+    width: 100%;
+    height: 100%;
+  
+    padding:1rem;
+}
+#comment{
+    font-size: 2rem;
+}
+.comment{
+   
+    display: flex;
+    flex-direction: row;
+   
+    padding: 1rem;
+}
+.comment img{
+    width:5%;
+    height: 5%;
+    margin-top: 0.5rem;
+}
+.addcom{
+    width:90%;
+    height:auto;
+    margin: 0.5rem 0.5rem 0.5rem 1.5rem;
+}
+#text{
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+   
+    outline:none;
+}
+#text:focus{
+    outline:none;
+}
+.com1{
+    width:90%;
+    height:auto;
+    margin: 0.5rem 0.5rem 0.5rem 1.5rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.content{
+    padding: 0.5rem;
+}
+.name{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+}
+.name h4{
+    font-size: 1.2rem;
+}
+.name p{
+    margin-top: 0.3rem;
+}
+.com{
+    display: flex;
+    flex-direction: column;
+}
+.like1{
+    width:100%;
+
+}
+.response1{
+    width:20%;
+    height:10%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.4rem;
+    justify-content: space-around;
+}
+.response1 button{
+    width:50%;
+    height:100%;
+    outline: none;
+    border: none;
+}
+.response1 img{
+    width: 100%;
+    height: 100%;
+    margin: 0.1rem;
+}
+.response1 p{
+    margin: 0.3rem 0.6rem 0.3rem 0.5rem;
+}
+.loadmore{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    padding: 1rem;
+}
+.morearticles{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.article img{
+    width: 50%;
+    height: 90%;
+}
+#article{
+    display:flex;
+    flex-direction: column;
+    padding: 0 0rem 1rem 1rem ;
+}
+#timer1{
+    width:10%;
+}
+.timer1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (min-width:0px) and (max-width:767px){
+    body{
+       width:100%;
+       font-size:10px;
+    }
+    nav ul{
+        display: none;
+    }
+    .container{
+        width:100%;
+        margin:0;
+        padding: 0;
+        flex-direction:column;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        padding: none;
+    }
+    #heading{
+        font-size:1rem;
+    }
+    .sub-container{
+        width: 100%;
+        margin: 0;
+    }
+    #author{
+        font-size: 0.8rem;
+    }
+    .sub-container p{
+        font-size: 0.8rem;
+    }
+    .like{
+        width:40%;
+    }
+    .reply{
+        width:60%;
+    }
+    .comment{
+        font-size: 0.3rem;
+    }
+    .comment img{
+        width: 15%;
+    }
+    #comment{
+        font-size: 1rem;
+    }
+    .name h4{
+        font-size: 0.4rem;
+    }
+    .response1{
+        width:40%;
+        justify-content: center;
+    }
+    .response1 button{
+        width:100%;
+    }
+    .response1 img{
+        width:100%;
+        height: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .morearticles{
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        padding:0;
+    }
+    #para{
+        font-size: 0.6rem;
+    }
+    .timer1{
+        width:70%;
+    }
+    nav img{
+        width:40%;
+        height:30%;
+        margin-left: 0.5rem;
+    }
+    .login{
+        width:45%;
+    }
+    #login,#signup{
+        width: 30%;
+        height: auto;
+    }
+    header{
+        border-bottom: 0.001rem solid black;
+    }
+    .newsletter {
+       margin: auto;
+       height: fit-content;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    body{
+        width: 100%;
+        font-size: 13px;
+    }
+    main{
+        width: 60%;
+    }
+    aside{
+        width: 40%;
+    }
+    .newsletter{
+        width:80%;
+        height: 30%;
+    }
+    .like{
+        width:20%;
+    }
+    .reply{
+        width: 30%;
+    }
+    .response1{
+        width: 30%;
+    }
+}
