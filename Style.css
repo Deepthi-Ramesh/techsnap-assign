@@ -6,23 +6,23 @@
 body{
     width:100%;
     height: fit-content;
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
+    top:0;
+    position: sticky;
     display: flex;
     flex-direction: row;
-    position: sticky;
     justify-content: space-between;
-    top:0;
     background-color: white;
 }
 .tech1{
+    width: 20%;
     display: flex;
     flex-direction: row;
-    width: 20%;
 }
 .image{
     width:35%;
@@ -31,40 +31,36 @@ header{
 .tech2{
     width: 65%;
     height: 80%;
-   
+    margin-top: 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 0.2rem;
 }
 .tech2 p{
     font-size: 0.5rem;
 }
 nav{
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
 }
 .image img{
     width: 100%;
     height:100%;
-
 }
 .nav-links{
     width: 80%;
-    
 }
 .nav-links ul{
-    font-size: 1.4rem;
     width:100%;
+    padding:1.5rem 0 0 0;
     display: flex;
     flex-direction: row;
-    list-style: none;
-    padding:1.5rem 0 0 0;
     justify-content: space-around;
+    font-size: 1.4rem;
+    list-style: none;
     cursor: pointer;
-    
 }
 nav ul li a{
     text-decoration: none;
@@ -75,52 +71,48 @@ nav ul li a{
 }
 .login{
     width:20%;
+    padding: 1.5rem 0 1.5rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 1rem;
-    padding: 1.5rem 0 1.5rem 0; 
 }
 #login{
     width:30%;
-    color: #ffffff;
-    background-color: #FF00D6;
     outline: none;
     border: none;
     border-radius: 0.2rem;
     text-decoration: none;
     cursor: pointer;
+    color: #ffffff;
+    background-color: #FF00D6;
 }
 #signup{
     width:30%;
-   
-    background-color: #ffffff ;
-    border: 1px solid  #FF00D6;
     border-radius: 0.2rem;
     text-decoration: none;
     cursor: pointer;
+    background-color: #ffffff ;
+    border: 1px solid  #FF00D6;
 }
 #signup a{
-    text-decoration: none;
     color: #FF00D6;
+    text-decoration: none;
 }
 .container{
     width:100%;
     margin: 0.5rem;
     padding: 1rem;
-    
     display: flex;
     flex-direction: row;
 }
 main{
    width:70%;
    height:100%;
-  
 }
 aside{
     width:30%;
     height:fit-content;
-
     float:right;
 }
 .share{
@@ -139,16 +131,15 @@ aside{
     width: 100%;
     height: 40%;
     font-size: 1rem;
+    padding: 0.7rem;
     display: grid;
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto;
-    padding: 0.7rem;
 }
 .trendingpost1{
+    padding: 0.5rem;
     display: flex;
     flex-direction: row;
-    
-    padding: 0.5rem;
     justify-content: space-between;
 }
 #post{
@@ -279,17 +270,14 @@ aside{
 .comments{
     width: 100%;
     height: 100%;
-  
     padding:1rem;
 }
 #comment{
     font-size: 2rem;
 }
 .comment{
-   
     display: flex;
     flex-direction: row;
-   
     padding: 1rem;
 }
 .comment img{
@@ -306,7 +294,6 @@ aside{
     width: 100%;
     height: 100%;
     padding: 0.2rem;
-   
     outline:none;
 }
 #text:focus{
@@ -422,21 +409,13 @@ footer{
     .nav-bar{
         margin-left: 0.5rem;
     }
-    .login{
-        /* width:20%;
-        position: absolute;
-        top:0.5rem;
-        right:0.7rem; */
-    }
     nav ul li{
-        border-bottom: 0.1px solid black;
         font-size: 0.9rem;
         padding: 1rem;
     }
     header{
         flex-direction: row;
         justify-content: center;
-
     }
     .container{
         width:100%;
@@ -455,10 +434,8 @@ footer{
     nav{
         flex-direction: row;
     }
-    nav ul{
-        flex-direction: column;
-    }
-    .nav-links{
+    .nav-links ul{
+        flex-direction:column;
         background-color: #ffffff;
         position: absolute;
         z-index:1;
@@ -471,7 +448,7 @@ footer{
         color: black;
         overflow: hidden;
     }
-    .nav-links::before{
+    .nav-links ul::before{
         position: absolute;
         top: -.5%;
         right: 0;
@@ -495,8 +472,8 @@ footer{
         background-color: white;
     }
     .nav-bar img{
-        width: 70%;
-        height: 70%;
+        width: 73%;
+        height: 73%;
     }
     .image{
        height: 100%;
