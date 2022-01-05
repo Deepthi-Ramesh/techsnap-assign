@@ -402,9 +402,12 @@ footer{
         justify-content:flex-start;     
     }
     .tech1{
-        width:50%;
+        width:70%;
         margin: 0;
         padding: 0;
+    }
+    .tech2{
+        width: 30%;
     }
     .nav-bar{
         margin-left: 0.5rem;
@@ -472,8 +475,8 @@ footer{
         background-color: white;
     }
     .nav-bar img{
-        width: 73%;
-        height: 73%;
+        width: 80%;
+        height: 80%;
     }
     .image{
        height: 100%;
