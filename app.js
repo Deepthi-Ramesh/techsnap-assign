@@ -43,3 +43,8 @@ function loadmore(){
     console.log(comments_data);
     
 }
+function nav(){
+const navLinks = document.querySelector(".nav-links");
+navLinks.classList.toggle("visible");
+console.log("DDD");
+}
